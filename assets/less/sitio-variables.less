@@ -37,13 +37,19 @@
 @enbiga-naranja: rgb(221,115,55);
 @enbiga-naranja-oscuro: rgb(165,48,16);
 
-@vision-opuesto: spin(@enbiga-azul-base, 180);
+
+//------- Colores QuimeQuipan
+@quime-base: rgb(134,155,71);
+@quime-dark: darken(@quime-base, 30%);//rgb(46,53,24)
+@quime-light: lighten(@quime-base, 30%);//rgb(159,184,85)
+@quime-accent: rgb(105,46,37);
+@quime-accent2: rgb(94,123,168);
 
 
 //------------ Colores
 @color-fondo: #fff;
 @color-fondo-contenido: #141414;
-@color-lineas: #232323;
+@color-lineas: @quime-light;
 
 @doradito: #b08c3f;
 @verde: #416058;
@@ -66,7 +72,7 @@
 
 //------------ Colores
 
-@brand-primary: 		@enbiga-azul-base;
+@brand-primary: 		@quime-base;
 
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
