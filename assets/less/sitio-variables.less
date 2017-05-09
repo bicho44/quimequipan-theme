@@ -92,8 +92,9 @@
 //== Typography
 @font-Alternativa: 'Open Sans Condensed', sans-serif;
 @raleway: Raleway, sans-serif;
-@font-headings: 'Dosis', sans-serif;
-@font-Decorativa: 'Italianno', cursive;
+@roboto-slab: 'Roboto Slab', serif;
+@roboto: 'Roboto', sans-serif;
+@Italianno: 'Italianno', cursive;
 
 
 @font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -102,14 +103,15 @@
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 
 //## Font, line-height, and color for body text, headings, and more.
-@font-texto: @raleway;
+@font-texto:        @raleway;
 
+@font-headings:     @roboto-slab;
 @font-family-base:        @font-texto;
 
 //== Navbar
 
 // Basics of a navbar
-@navbar-height:                    70px;
+@navbar-height:                    80px;
 @navbar-margin-bottom:             @line-height-computed;
 @navbar-border-radius:             0;
 @navbar-padding-horizontal:        floor((@grid-gutter-width / 2));
