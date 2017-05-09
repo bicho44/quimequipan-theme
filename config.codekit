@@ -110,39 +110,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/images\/enbiga-con-plato-totop.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10177,
-		"inputAbbreviatedPath": "\/assets\/images\/enbiga-con-plato-totop.png",
-		"outputAbbreviatedPath": "\/assets\/images\/enbiga-con-plato-totop.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/images\/enbiga-logo-azul.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4218,
-		"inputAbbreviatedPath": "\/assets\/images\/enbiga-logo-azul.png",
-		"outputAbbreviatedPath": "\/assets\/images\/enbiga-logo-azul.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/assets\/images\/enbiga-logo-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3879,
-		"inputAbbreviatedPath": "\/assets\/images\/enbiga-logo-white.png",
-		"outputAbbreviatedPath": "\/assets\/images\/enbiga-logo-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/assets\/images\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -153,6 +120,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/assets\/images\/logo-quime.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/images\/logo-quime.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo-quime.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/images\/logo.png",
+		"outputAbbreviatedPath": "\/assets\/images\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/js\/script-ck.js": {
 		"fileType": 64,

@@ -4704,7 +4704,7 @@ tbody.collapse.in {
   list-style: none;
   font-size: 14px;
   text-align: left;
-  background-color: #00a3d8;
+  background-color: #869b47;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -5660,7 +5660,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #00a3d8;
+  background-color: #869b47;
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
@@ -10040,7 +10040,7 @@ animation:         KEYFRAME-NAME 5s infinite;
   padding: 10px 5px 0 5px;
 }
 .navbar-fixed-top {
-  background-color: rgba(0, 163, 216, 0.95);
+  background-color: rgba(134, 155, 71, 0.95);
 }
 .imgd-destacados {
   background-color: #eb5830;
