@@ -1,9 +1,9 @@
 <?php
 /*
-Title: Vision Options
+Title: Theme Options
 Setting: opciones_imgd
-Tab: Vision Home Page
-Flow: Opciones Vision
+Tab: Theme Home Page
+Flow: Opciones Theme
 
 */
 
@@ -23,6 +23,32 @@ Flow: Opciones Vision
 );
 
 */
+
+piklist (
+    'field',
+    array(
+        'type' => 'radio',
+        'scope' => 'post_meta',
+        'field' => 'imgd_goto_top',
+        'label' => __('Muestra el GotoTop?', 'imgd'),
+        'value' => 0,
+        'attributes' => array(
+            'class' => 'radio'
+        ),
+        'choices' => array(
+            0 => __('No', 'imgd'),
+            1 => __('Si', 'imgd')
+        ),
+        'position' => 'wrap'
+    )
+);
+
+/*
+* @todo: Image Field
+* @todo: Image Size?
+*/
+
+
 piklist (
     'field',
     array(
