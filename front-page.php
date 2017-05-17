@@ -14,8 +14,10 @@ $opciones_imgd = get_option('opciones_imgd');
 $slider = $opciones_imgd['imgd_slider'][0];
 $slider_size = $opciones_imgd['imgd_slider_size'];
 
-$destanews = $opciones_imgd['imgd_desta_news'][0];
-$columnas = $opciones_imgd['imgd_columnas'][0];
+$destanews = $opciones_imgd['imgd_desta_news'];
+$destanews_cant = $opciones_imgd['imgd_desta_news_cant'];
+
+//echo '<pre>'.var_dump($opciones_imgd).'</pre>';
 
 ?>
 

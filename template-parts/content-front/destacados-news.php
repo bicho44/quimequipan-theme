@@ -1,10 +1,14 @@
 <?php
+
+//@TODO: Cambiar el destacados por el que pone las news en una sola línea
+
+
 // Acá seleciono las Páginas que voy a mostrar como destacados en la Home
 $args = array('post_type' => array('post', 'page','imgd_programa', 'portfolio_item', 'imgd_productos', 'imgd_casino_shows'),
-'meta_key' => 'imgd_home_news',
+'meta_key' => 'imgd_home',
 'meta_value' => '1',
 'post_status' => 'publish',
-'posts_per_page' => $destanewscant,
+'posts_per_page' => $destanews_cant,
 'ignore_sticky_posts'=>true
 );
 
