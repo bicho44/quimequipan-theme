@@ -63,10 +63,10 @@ define('POST_EXCERPT_LENGTH', 55);
 /**
 * Agregar el Back to Top
 */
-echo '<pre>Opcion to top:'. var_dump($opciones_imgd['imgd_goto_top'][0]).'</pre>';
+//echo '<pre>Opcion to top:'. var_dump($opciones_imgd['imgd_goto_top'][0]).'</pre>';
 function back_to_top() {
     $imageid = $opciones_imgd['imgd_image_to_top'][0];
-    echo '<pre>'.var_dump ($imageid).'</pre>';
+    //echo '<pre>'.var_dump ($imageid).'</pre>';
 
     if ($imageid==null) {
         $contenido = "Back to Top ˆ";
