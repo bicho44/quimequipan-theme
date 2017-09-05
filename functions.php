@@ -225,3 +225,18 @@ require get_template_directory() . '/imgd/imgd_funciones.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+// Change url that is linked from logo
+
+//add_action( 'awebooking/before_main_content', 'awebooking_output_content_wrapper', 10 );
+//add_action( 'awebooking/after_main_content', 'awebooking_output_content_wrapper_end', 10 );
+
+add_filter( 'awebooking/before_main_content', 'imgd_awebooking_output_content_wrapper' );
+function imgd_awebooking_output_content_wrapper() {
+  echo '<div class="container"><!-- container -->';
+}
+
+add_filter( 'awebooking/after_main_content', 'imgd_awebooking_output_content_wrapper_end' );
+function imgd_awebooking_output_content_wrapper_end() {
+  echo '</div><!-- end container-->';
+}
