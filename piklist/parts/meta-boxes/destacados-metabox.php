@@ -1,7 +1,7 @@
 <?php
 /*
 Title: Destacados
-Post Type: page,post,portfolio_item,portfolio_project,product,imgd_chef
+Post Type: page,post,portfolio_item,room_type
 Description: Un Meta Box para que este post aparezca en el Front Page
 Priority: high
 Order: 3
