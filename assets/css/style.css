@@ -10031,6 +10031,9 @@ animation:         KEYFRAME-NAME 5s infinite;
   left: 0;
   z-index: 500;
 }
+.navbar {
+  margin-bottom: 0;
+}
 .navbar-default,
 .navbar-fixed-top {
   -webkit-transition: all 1s;
