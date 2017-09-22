@@ -15,11 +15,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php
-			if (has_post_thumbnail()){
-				the_post_thumbnail('header-cropped');
-			}
-		 ?>
+		
 		<?php
 			the_content();
 
