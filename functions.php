@@ -240,3 +240,14 @@ add_filter( 'awebooking/after_main_content', 'imgd_awebooking_output_content_wra
 function imgd_awebooking_output_content_wrapper_end() {
   echo '</div><!-- end container-->';
 }
+
+ //add_action( 'awebooking/sidebar', 'awebooking_get_sidebar', 10 );
+/*
+function awebooking_get_sidebar() {
+	awebooking_get_template( 'global/sidebar.php' );
+}*/
+
+add_filter( 'awebooking/after_main_content', 'imgd_awebooking_sidebar' );
+function imgd_awebooking_sidebar() {
+	get_sidebar();
+}
