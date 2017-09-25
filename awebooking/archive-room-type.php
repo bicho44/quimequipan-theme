@@ -24,6 +24,10 @@ get_header( 'booking' ); ?>
 		do_action( 'awebooking/before_main_content' );
 	?>
 
+<div class="row">
+
+		<main id="main" class="site-main col-md-8" role="main">
+
 		<div class="awebooking-room-type-filter">
 		<?php
 			/**
@@ -77,8 +81,11 @@ get_header( 'booking' ); ?>
 		 *
 		 * @hooked awebooking_get_sidebar - 10
 		 */
-		do_action( 'awebooking/sidebar' );
+		//do_action( 'awebooking/sidebar' );
 	?>
+	</main><!-- #main -->
+		<?php get_sidebar(); ?>
+</div>
 
 <?php get_footer( 'booking' );
 
