@@ -233,7 +233,7 @@ require get_template_directory() . '/inc/jetpack.php';
 
 add_filter( 'awebooking/before_main_content', 'imgd_awebooking_output_content_wrapper' );
 function imgd_awebooking_output_content_wrapper() {
-  echo '<div class="container"><!-- container -->';
+  echo '<div id="primary" class="content-area container"><!-- container -->';
 }
 
 add_filter( 'awebooking/after_main_content', 'imgd_awebooking_output_content_wrapper_end' );
@@ -247,7 +247,7 @@ function awebooking_get_sidebar() {
 	awebooking_get_template( 'global/sidebar.php' );
 }*/
 
-add_filter( 'awebooking/after_main_content', 'imgd_awebooking_sidebar' );
+/*add_filter( 'awebooking/after_main_content', 'imgd_awebooking_sidebar' );
 function imgd_awebooking_sidebar() {
 	get_sidebar();
-}
+}*/

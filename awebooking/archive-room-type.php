@@ -28,17 +28,17 @@ get_header( 'booking' ); ?>
 
 		<main id="main" class="site-main col-md-8" role="main">
 
-		<div class="awebooking-room-type-filter">
-		<?php
-			/**
-			 * awebooking/before_archive_loop hook.
-			 *
-			 * @hooked awebooking_location_filter - 10
-			 * @hooked awebooking_catalog_ordering - 20
-			 */
-			do_action( 'awebooking/before_archive_loop' );
-		?>
-		</div>
+			<div class="awebooking-room-type-filter">
+			<?php
+				/**
+				* awebooking/before_archive_loop hook.
+				*
+				* @hooked awebooking_location_filter - 10
+				* @hooked awebooking_catalog_ordering - 20
+				*/
+				do_action( 'awebooking/before_archive_loop' );
+			?>
+			</div>
 
 		<?php if ( have_posts() ) : ?>
 
@@ -63,26 +63,17 @@ get_header( 'booking' ); ?>
 
 		<?php else : ?>
 			<?php awebooking_get_template( 'loop/no-room-types-found.php' ); ?>
-
 		<?php endif; ?>
 
-	<?php
-		/**
-		 * awebooking/after_main_content hook.
-		 *
-		 * @hooked awebooking_output_content_wrapper_end - 10 (outputs closing divs for the content)
-		 */
-		do_action( 'awebooking/after_main_content' );
-	?>
+		<?php
+			/**
+			* awebooking/after_main_content hook.
+			*
+			* @hooked awebooking_output_content_wrapper_end - 10 (outputs closing divs for the content)
+			*/
+			do_action( 'awebooking/after_main_content' );
+		?>
 
-	<?php
-		/**
-		 * awebooking/sidebar hook.
-		 *
-		 * @hooked awebooking_get_sidebar - 10
-		 */
-		//do_action( 'awebooking/sidebar' );
-	?>
 	</main><!-- #main -->
 		<?php get_sidebar(); ?>
 </div>
