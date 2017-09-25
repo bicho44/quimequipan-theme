@@ -65,6 +65,10 @@ get_header( 'booking' ); ?>
 			<?php awebooking_get_template( 'loop/no-room-types-found.php' ); ?>
 		<?php endif; ?>
 
+	
+	</main><!-- #main -->
+		<?php get_sidebar(); ?>
+</div>
 		<?php
 			/**
 			* awebooking/after_main_content hook.
@@ -73,10 +77,6 @@ get_header( 'booking' ); ?>
 			*/
 			do_action( 'awebooking/after_main_content' );
 		?>
-
-	</main><!-- #main -->
-		<?php get_sidebar(); ?>
-</div>
 
 <?php get_footer( 'booking' );
 
